@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <!-- Bootstrap CDN link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    /* Style the header */
+    .header {
+      background-color: #a6a0a0;
+      padding: 20px;
+      color: red;
+      text-align: center;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- for spacing used bootstrap grid -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+      </div>
+      <div class="col-lg-auto">
+        <!-- Header with div and Pragraphs with ID's -->
+        <div class="header">
+          <h1 id="head">Resa Infotech</h1>
+        </div>
+
+        <div class="topnav">
+          <a href="index.html">Home</a>
+          <a href="features.html">features</a>
+          <a href="about.html">About</a>
+        </div>
+        <h1 id="heading">About JavaScript</h1>
+        <p id="paragraph"> JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class
+          functions, and is best known as the scripting language for Web pages, but it's used in many non-browser
+          environments as well. It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports
+          object-oriented, imperative, and functional programming styles.
+          JavaScript runs on the client side of the web, which can be used to design / program how the web pages behave
+          on the occurrence of an event. JavaScript is an easy to learn and also powerful scripting language, widely
+          used for controlling web page behavior.
+          Contrary to popular misconception, JavaScript is not "Interpreted Java". In a nutshell, JavaScript is a
+          dynamic scripting language supporting prototype based object construction. The basic syntax is intentionally
+          similar to both Java and C++ to reduce the number of new concepts required to learn the language. Language
+          constructs, such as if statements, for and while loops, and switch and try ... catch blocks function the same
+          as in these languages (or nearly so).
+          JavaScript can function as both a procedural and an object oriented language. Objects are created
+          programmatically in JavaScript, by attaching methods and properties to otherwise empty objects at run time, as
+          opposed to the syntactic class definitions common in compiled languages like C++ and Java. Once an object has
+          been constructed it can be used as a blueprint (or prototype) for creating similar objects.
+          JavaScript's dynamic capabilities include runtime object construction, variable parameter lists, function
+          variables, dynamic script creation (via eval), object introspection (via for ... in), and source code recovery
+          (JavaScript programs can decompile function bodies back into their source text).
+          For a more in depth discussion of JavaScript programming follow the JavaScript resources links below.</p>
+        <a href="index.html">
+          <h3>What is JavaScript</h3>
+        </a>
+      </div>
+      <div class="col">
+
+      </div>
+    </div>
+    <!-- adding some style on the page with the help of JS-->
+    <script>
+      // h1 style 
+    document.getElementById('heading').style.color='darked';
+    document.getElementById('heading').style.fontFamily='Imprint MT Shadow';
+    // style paragraph 
+    document.getElementById('paragraph').style.fontFamily='Times New Roman';
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Title of the document-->
+  <title>Home</title>
+  <!-- Bootstrap CDN link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    /* Style the header */
+    .header {
+      background-color: #a6a0a0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- for spacing used bootstrap grid -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+      </div>
+      <div class="col-lg-auto">
+        <!-- Header with div and Pragraphs with ID's -->
+        <div class="header">
+          <h1 id="head">Resa Infotech</h1>
+        </div>
+
+        <div class="topnav">
+          <a href="index.html">Home</a>
+          <a href="features.html">features</a>
+          <a href="about.html">About</a>
+        </div>
+        <p id="headline"></p>
+        <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/10/What-Is-JavaScript-380x380.png" alt="JS">
+        <h1> The full stack programming language</h1>
+        <p id="discription"></p>
+        <p>
+          JavaScript often abbreviated to JS, is a programming language that is one of the core technologies of the
+          World Wide Web, alongside HTML and CSS.[11] As of 2022, 98% of websites use JavaScript on the client side for
+          webpage behavior,[12] often incorporating third-party libraries.[13] All major web browsers have a dedicated
+          JavaScript engine to execute the code on users' devices.
+          JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[14]
+          It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm,
+          supporting event-driven, functional, and imperative programming styles. It has application programming
+          interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the
+          Document Object Model (DOM).
+          The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics
+          facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
+          JavaScript engines were originally used only in web browsers, but are now core components of some servers and
+          a variety of applications. The most popular runtime system for this usage is Node.js.
+          Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages
+          are distinct and differ greatly in design.
+        </p>
+        <a href="features.html">
+          <h3>Some main features of JavaScript</h3>
+        </a>
+      </div>
+      <div class="col">
+      </div>
+    </div>
+    <!--Included with the link of external scriptfile-->
+    <script src="script.js"></script>
+</body>
+
+</html>

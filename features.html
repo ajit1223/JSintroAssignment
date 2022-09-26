@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>features</title>
+  <!-- bootstrap CDN link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    /* Style the header */
+    .header {
+      background-color: #a6a0a0;
+      padding: 20px;
+      color: red;
+      text-align: center;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* change size of img  */
+    img {
+      border: 1px solid white;
+      border-radius: 5px;
+      padding: 5px;
+      width: 350px;
+      height: 360px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- for spacing used bootstrap grid -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+      </div>
+      <div class="col-lg-auto">
+        <!-- Header with div and Pragraphs with ID's -->
+        <div class="header">
+          <h1 id="head">Resa Infotech</h1>
+        </div>
+
+        <div class="topnav">
+          <a href="index.html">Home</a>
+          <a href="features.html">features</a>
+          <a href="about.html">About</a>
+        </div>
+        <p id="features">
+        </p>
+        <p>
+        <h1 id="heading"> Top JavaScript Features You Must Know</h1>
+        <h3 id='header3'>Below are a few features of JavaScript based on general features, language use, and experimental features.
+        </h3>
+        <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/11/image1-11-702x1024.png" alt="">
+        <ul>
+          <h4>Top Features of JavaScript </h4>
+          <li> General language features</li>
+          <li>Language Use Features</li>
+          <li>Prototype-based </li>
+          <li>Experimental & Newer features </li>
+        </ul>
+        <h2 id="head2">General language features</h2>
+        <h3 id='header3'>Scripting Language</h3>
+        JavaScript is a lightweight scripting language made for client-side execution on the browser. Since it is not
+        designed as a general-purpose language and is specially engineered for web applications, the set of libraries is
+        also geared primarily towards web applications.
+        <h3 id='header3'>Interpreter Based</h3>
+        JavaScript is an interpreted language instead of a compiled one. In that sense, it is closer to languages like
+        Ruby and Python. The browser interprets JavaScript’s source code, line by line and runs it. In contrast, a
+        compiled language needs to be compiled into a byte-code code executable. Java and C++ are examples of compiled
+        languages.
+        <h3 id='header3'>Event Handling</h3>
+        An event is an action or an occurrence in a system that communicates about said occurrence so that you can
+        respond to it somehow. For example, a user clicks on a button, and the system tells you to respond to the button
+        click event with an action, say an information box.
+        JavaScript enables you to handle events and even generate custom events.
+        <h3 id='header3'>Light Weight</h3>
+        JavaScript isn’t a compiled language, so it doesn’t get converted to byte-code beforehand. However, it does
+        follow a paradigm called Just-In-Time (JIT) Compilation. Meaning it gets converted to bytecode just as it’s
+        about to run. This enables JS to be lightweight. Even less powerful devices are capable of running JavaScript.
+        </p>
+        <a href="about.html">
+          <h3 id='header3'>About JavaScript</h3>
+        </a>
+      </div>
+      <div class="col">
+      </div>
+    </div>
+    <!-- adding some style on the page with the help of JS-->
+    <script>
+      // styling heading 
+      document.getElementById('heading').style.fontFamily='Harlow Solid';
+      document.getElementById('heading').style.color='purple';
+      // styling h2 
+        document.getElementById('head2').style.fontFamily='Onyx';
+        document.getElementById('head2').style.color='green';
+        document.getElementById('head2').style.fontSize='50px';
+      // styling h3
+      document.getElementById('heading').style.fontFamily='Lucida Calligraphy';
+      
+    </script>
+</body>
+
+</html>
